@@ -17,7 +17,7 @@ async function search (){
 
             let img = document.createElement("img");
             img.src = country.flag;
-            img.width = 200;
+            img.width = 300;
 
             outputElement.textContent = "";
             outputElement.appendChild(heading);
